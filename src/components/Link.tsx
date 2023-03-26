@@ -1,5 +1,5 @@
-import styles from "@/pages/index.module.css"
-import { ReactElement } from "react"
+import styles from '@/pages/index.module.css'
+import { ReactElement } from 'react'
 
 interface IProps {
   href: string

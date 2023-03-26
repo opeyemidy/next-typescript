@@ -1,7 +1,7 @@
-import styles from "@/pages/index.module.css"
-import Footer from "@/components/Footer"
-import Header from "@/components/Header"
-import Link from "@/components/Link"
+import styles from '@/pages/index.module.css'
+import Footer from '@/components/Footer'
+import Header from '@/components/Header'
+import Link from '@/components/Link'
 
 export default function Home() {
   return (
