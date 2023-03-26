@@ -7,7 +7,8 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "test": "jest --watch=false",
-    "test:ci": "jest --ci=false"
+    "test:ci": "jest --ci=false",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "latest",
@@ -25,6 +26,7 @@
     "eslint-plugin-testing-library": "^5.10.2",
     "jest": "29.5.0",
     "jest-environment-jsdom": "29.5.0",
-    "typescript": "4.9.5"
+    "typescript": "4.9.5",
+    "husky": "^8.0.0"
   }
 }
