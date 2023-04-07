@@ -8,9 +8,8 @@
   // show eslint icon at bottom toolbar
   "eslint.alwaysShowStatus": true,
   // tell the ESLint plugin to run on save
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "eslint.validate": ["javascript"]
-   
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"]
 }
