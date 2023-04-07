@@ -9,6 +9,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test": "jest --watch=false",
+    "test:cov": "jest --coverage",
     "test:ci": "jest --ci=false",
     "prepare": "husky install"
   },

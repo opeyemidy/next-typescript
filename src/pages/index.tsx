@@ -2,17 +2,8 @@ import styles from '@/pages/index.module.css'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Link from '@/components/Link'
-// import { selectUser, setUser } from '@/store/features/user'
-// import { useAppDispatch, useAppSelector } from '@/store/hooks'
-// import { useEffect } from 'react'
 
 export default function Home() {
-  // const userState = useAppSelector(selectUser)
-  // const { value: user, status } = userState
-  // const dispatch = useAppDispatch()
-  // useEffect(() => {
-  //   setTimeout(() => dispatch(setUser({ ...user, name: 'Next.js!' })), 3000)
-  // }, [dispatch, user])
   return (
     <div className={styles.container}>
       <Header title="Create Next App" />
